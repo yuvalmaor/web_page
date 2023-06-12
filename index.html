@@ -1,4 +1,28 @@
-<body style="background-image: url('./im.png');">
-<!--<div><img src="./im.png" alt="my image" width="500" height="600">-->
-</div>
-  </body>
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Image Page</title>
+        <style>
+            body {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                min-height: 100vh;
+                margin: 0;
+                background: #f3f3f3;
+            }
+            img {
+                max-width: 100%;
+                height: auto;
+            }
+            a {
+                display: inline-block;
+            }
+        </style>
+    </head>
+    <body>
+        <a href="#">
+            <img src="./im.png" alt="Your Image">
+        </a>
+    </body>
+</html>
